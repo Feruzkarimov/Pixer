@@ -1,0 +1,54 @@
+// HEADER START
+
+.site-header {
+  padding: 30px 0;
+
+  &__logo-img:hover {
+    opacity: 0.8;
+  }
+
+  &__logo-img:active {
+    opacity: 0.6;
+  }
+
+  &__nav-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__nav-link {
+    color: $color-primary;
+    font-weight: 500;
+    line-height: 150%;
+
+    @include list-unstyled;
+
+    &:hover {
+      color: #1AAB7B;
+    }
+  }
+
+  &__btn {
+    @include btn;
+    background-color: $color-primary;
+    padding: 12px 24px;
+
+    &:hover {
+      @include btn-hover;
+    }
+
+    &:active {
+      @include btn-active;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// HEADER END

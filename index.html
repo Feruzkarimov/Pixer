@@ -3,10 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SCSS - Template</title>
+  <title>Pixer</title>
+
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
+
 </head>
 <body>
-  
+  <header class="site-header align-items-center border-bottom">
+    <div class="container">
+      <div class="site-header__wrapper d-flex align-items-center justify-content-between">
+        <div class="site-header__wrapper-start d-flex">
+          <a class="site-header__logo" href="./index.html">
+            <img class="site-header__logo-img" src="./images/pixer-icon.svg" alt="Pixer icon img">
+          </a>
+          
+          <nav class="site-header_nav ms-5">
+            <ul class="site-header__nav-list nav align-items-center">
+              <li class="site-header__nav-item nav-item d-flex">
+                <a class=".site-header__nav-link" href="#">Services</a>
+              </li>
+              <li class="site-header__nav-item nav-item">
+                <a class=".site-header__nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="site-header__nav-item nav-item">
+                <a class=".site-header__nav-link" href="#">Team</a>
+              </li>
+              <li class="site-header__nav-item nav-item">
+                <a class=".site-header__nav-link" href="#">Blog</a>
+              </li>
+              <li class="site-header__nav-item nav-item">
+                <a class=".site-header__nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        <a href="tel:+2395550108" role="button" class="site-header__btn btn btn-dark">(239) 555-0108</a>
+        
+      </div>
+    </div>
+  </header>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

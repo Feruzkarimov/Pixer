@@ -3,3 +3,30 @@
   margin: 0;
   list-style: none;
 }
+
+@mixin link-unstyled {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@mixin btn {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120%;
+  border-radius: 6px;
+  border: 1.5px solid transparent;
+}
+
+@mixin btn-hover {
+  color: $color-hover;
+  border-radius: 6px;
+  border: 1.5px solid $btn-primary;
+  background-color: transparent;
+}
+
+@mixin btn-active {
+  opacity: 0.7px;
+  border-radius: 6px;
+  background-color: transparent;
+}
