@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pixer</title>
-
+  
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
-
+  
 </head>
 <body>
+  
+  <!-- HEADER START -->
+  
   <header class="site-header align-items-center border-bottom">
     <div class="container">
       <div class="site-header__wrapper d-flex align-items-center justify-content-between">
@@ -21,30 +24,72 @@
           <nav class="site-header_nav ms-5">
             <ul class="site-header__nav-list nav align-items-center">
               <li class="site-header__nav-item nav-item d-flex">
-                <a class=".site-header__nav-link" href="#">Services</a>
+                <a class="site-header__nav-link text-decoration-none" href="#">Services</a>
               </li>
               <li class="site-header__nav-item nav-item">
-                <a class=".site-header__nav-link" href="#">Portfolio</a>
+                <a class="site-header__nav-link text-decoration-none" href="#">Portfolio</a>
               </li>
               <li class="site-header__nav-item nav-item">
-                <a class=".site-header__nav-link" href="#">Team</a>
+                <a class="site-header__nav-link text-decoration-none" href="#">Team</a>
               </li>
               <li class="site-header__nav-item nav-item">
-                <a class=".site-header__nav-link" href="#">Blog</a>
+                <a class="site-header__nav-link text-decoration-none" href="#">Blog</a>
               </li>
               <li class="site-header__nav-item nav-item">
-                <a class=".site-header__nav-link" href="#">Contacts</a>
+                <a class="site-header__nav-link text-decoration-none" href="#">Contacts</a>
               </li>
             </ul>
           </nav>
         </div>
         
-        <a href="tel:+2395550108" role="button" class="site-header__btn btn btn-dark">(239) 555-0108</a>
+        <a class="site-header__btn btn btn-dark" href="tel:+2395550108" role="button">(239) 555-0108</a>
         
       </div>
     </div>
   </header>
-
+  
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+  <!-- HEADER END -->
+  
+  <!-- MAIN START -->
+  
+  <main class="site-main">
+    <!-- SECTION START -->
+    <section class="site-hero">
+      <div class="container">
+        <div class="site-hero__wrapper d-flex justify-content-between align-items-center">
+          <div class="site-hero__wrapper-start d-flex flex-column align-items-start">
+            <h1 class="site-hero__title m-0">
+              Take your 
+              <br>
+              business to the next 
+              <br>
+              level take out
+            </h1>
+            
+            <p class="site-hero__desc m-0">
+              Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. 
+              Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. 
+              Vivamus mattis eros at sem pulvinar
+            </p>
+            
+            <a class="site-hero__btn btn btn-success" href="#"  text-decoration-nonerole="button">Learn more</a>
+          </div>
+
+          <div class="site-hero__wrapper-end position-relative">
+            <img class="site-hero__img" src="./images/site-hero-img.jpeg" alt="Historical city img">
+            <a class="site-hero__img-btn position-absolute" href="#" role="button">
+              <img class="site-hero__img-logo" src="./images/play-icon.svg" alt="play button icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION END -->
+  </main>
+  
+  <!-- MAIN END -->
+  
 </body>
 </html>

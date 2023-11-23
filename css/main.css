@@ -403,7 +403,7 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1215px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -445,7 +445,7 @@ main {
 }
 .site-header__btn {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 120%;
   border-radius: 6px;
@@ -455,12 +455,74 @@ main {
 }
 .site-header__btn:hover {
   color: #1AAB7B;
-  border-radius: 6px;
   border: 1.5px solid #1AAB7B;
   background-color: transparent;
 }
 .site-header__btn:active {
   opacity: 0.7px;
+}
+
+.site-main {
+  width: 100%;
+}
+
+.site-hero {
+  width: 100%;
+}
+.site-hero__wrapper {
+  margin-top: 92px;
+  margin-bottom: 156px;
+}
+.site-hero__wrapper-start {
+  width: 100%;
+  max-width: 550px;
+  gap: 20px;
+}
+.site-hero__wrapper-end {
+  width: 100%;
+  max-width: 592px;
+}
+.site-hero__title {
+  margin-bottom: 20px;
+  color: #101010;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 140%;
+}
+.site-hero__desc {
+  width: 100%;
+  max-width: 537px;
+  margin-bottom: 40px;
+  color: #636F87;
+  font-size: 18px;
+  line-height: 150%;
+}
+.site-hero__btn {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: #1AAB7B;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
   border-radius: 6px;
+  border: 1.5px solid transparent;
+}
+.site-hero__btn:hover {
+  color: #1AAB7B;
+  border: 1.5px solid #1AAB7B;
   background-color: transparent;
+}
+.site-hero__btn:active {
+  opacity: 0.7px;
+}
+.site-hero__img {
+  border-radius: 6px;
+}
+.site-hero__img-btn {
+  width: 100%;
+  max-width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
